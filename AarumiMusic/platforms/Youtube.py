@@ -9,7 +9,7 @@ from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 from AarumiMusic.utils.formatters import time_to_seconds
 import aiohttp
-from ShrutiMusic import LOGGER
+from AarumiMusic import LOGGER
 
 YOUR_API_URL = None
 FALLBACK_API_URL = "https://shrutibots.site"
