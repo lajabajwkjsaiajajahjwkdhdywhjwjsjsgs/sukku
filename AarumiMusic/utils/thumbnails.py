@@ -114,8 +114,8 @@ async def get_thumb(videoid):
 
         try:
             font_title = ImageFont.truetype("AarumiMusic/assets/font.ttf", 45)
-            font_details = ImageFont.truetype("AarumiMusic/assets/font2.ttf", 30)
-            font_watermark = ImageFont.truetype("AarumiMusic/assets/font2.ttf", 25)
+            font_details = ImageFont.truetype("AarumiMusic/assets/font.ttf", 30)
+            font_watermark = ImageFont.truetype("AarumiMusic/assets/font.ttf", 25)
         except:
             font_title = ImageFont.truetype("arial.ttf", 45)
             font_details = ImageFont.truetype("arial.ttf", 30)
